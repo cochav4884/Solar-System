@@ -1,0 +1,124 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    margin: auto;
+    padding: 5px;
+    width: 1400px;
+    height: 5220px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+header {
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navbar {
+    background: transparent url("../img/galaxy3.jpg");
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+img {
+    box-shadow: 4px 8px 10px rgb(134, 18, 180);
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    border: 3px rgb(12, 12, 12);
+    display: inline-block;
+    background-color: transparent;
+    box-shadow: 4px 8px 10px rgb(134, 18, 180);
+    text-align: center;
+    height: 60px;
+    width: 100px;
+    margin-top: 13px;
+}
+
+ul li a {
+    color: rgb(255, 81, 0) !important;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background: transparent;
+    box-shadow: 4px 8px 10px rgba(0, 212, 255, 1) !important;
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    /* background: rgb(0, 212, 255, 0.5);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.5) 0%, rgba(238, 126, 178, 0.5) 35%, rgba(233, 9, 113, 0.5) 100%); */
+    height: 330px;
+    padding: 15px;
+    text-align: center;
+}
+
+.fa-youtube {
+    color: rgb(67, 41, 184);
+}
+
+.fa-burst {
+    color: rgb(121, 62, 22);
+}
+
+.fa-earth-americas {
+    color: rgb(0, 89, 255);
+}
+
+.fa-facebook-f {
+    color: rgb(0, 0, 255);
+}
+
+.fa-glasses {
+    color: rgb(2, 0, 36);
+    }
+
+.fa-hand-o-up {
+    color: rgb(67, 41, 184);
+}
+
+.email {
+    color: blue;
+}
+
+.up {
+    color: rgb(121, 62, 22);
+}
